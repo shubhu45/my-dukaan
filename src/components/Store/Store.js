@@ -5,6 +5,7 @@ import CancelIcon from '@material-ui/icons/Cancel';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 import Config from '../../config/config.json'
 import { FormControlLabel, Searchbar, Switch } from '@material-ui/core';
+import Footer from '../Layout/Footer/Footer'
 import SearchBar from 'material-ui-search-bar';
 import ProductList from './ProductList';
 import ApiData from '../../config/ApiData.json'
@@ -129,7 +130,7 @@ export default function Store(props){
                     </div>
                 </div>
             </div>
-            
+            <Footer/>
         </ContainerComponent>
     )
 }
